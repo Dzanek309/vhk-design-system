@@ -1,4 +1,12 @@
 <script setup lang="ts">
-import VhkButton from "../src/components/Button/VhkButton.vue";
+import Button from "../src/components/Button/Button.vue";
 </script>
-<template><VhkButton>click me</VhkButton></template>
+<template>
+  <div class="bg-gray-500 h-100 w-100">
+    <Button size="xl">click me</Button>
+    <Button size="lg">click me</Button>
+    <Button size="md">click me</Button>
+    <Button size="sm">click me</Button>
+    <Button size="xs">click me</Button>
+  </div>
+</template>
