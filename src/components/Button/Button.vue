@@ -28,10 +28,10 @@
 </template>
 
 <script setup lang="ts">
-type ButtonSize = "xl" | "lg" | "md" | "sm" | "xs";
-type ButtonPurpose =
+export type ButtonSize = "xl" | "lg" | "md" | "sm" | "xs";
+export type ButtonPurpose =
   "intent" | "primary" | "secondary" | "purple-accent" | "blue-accent";
-type ButtonVariant = "solid" | "outline" | "alternative";
+export type ButtonVariant = "solid" | "outline" | "alternative";
 
 withDefaults(
   defineProps<{
