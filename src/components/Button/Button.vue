@@ -79,27 +79,27 @@ const colorClasses: Record<ButtonVariant, Record<ButtonPurpose, string>> = {
   },
   outline: {
     primary:
-      "border-2 border-brand-border-default text-brand-text-on-default hover:border-brand-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-brand-border-default text-brand-text-on-default hover:border-brand-border-strong active:bg-brand-background-subtle-pressed active:border-brand-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     secondary:
-      "border-2 border-border-default text-text-primary hover:border-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-border-default text-text-primary hover:border-border-strong active:bg-surface-raised-pressed active:border-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     intent:
-      "border-2 border-border-inverse text-border-inverse disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-border-inverse text-border-inverse active:bg-surface-raised-pressed active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
     "blue-accent":
-      "border-2 border-accent-blue-border-default text-accent-blue-text-on-default hover:border-accent-blue-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-accent-blue-border-default text-accent-blue-text-on-default hover:border-accent-blue-border-strong active:bg-accent-blue-background-subtle-pressed active:border-accent-blue-border-strong active:text-accent-blue-text-on-subtle disabled:border-border-disabled disabled:text-text-disabled",
     "purple-accent":
-      "border-2 border-accent-purple-border-default text-accent-purple-text-on-default hover:border-accent-purple-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-accent-purple-border-default text-accent-purple-text-on-default hover:border-accent-purple-border-strong active:bg-accent-purple-background-subtle-pressed active:border-accent-purple-border-strong active:text-accent-purple-text-on-subtle disabled:border-border-disabled disabled:text-text-disabled",
   },
   alternative: {
     primary:
-      "border-2 border-brand-border-default text-brand-border-default hover:border-brand-border-strong hover:text-brand-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-brand-border-default text-brand-border-default hover:border-brand-border-strong hover:text-brand-border-strong active:bg-brand-background-subtle-pressed active:border-brand-border-strong active:text-brand-text-strong disabled:border-border-disabled disabled:text-text-disabled",
     secondary:
-      "border-2 border-border-default text-border-default hover:border-border-strong hover:text-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-border-default text-border-default hover:border-border-strong hover:text-border-strong active:bg-surface-raised-pressed active:border-border-strong active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
     intent:
-      "border-2 border-border-inverse text-border-inverse disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-border-inverse text-border-inverse active:bg-surface-raised-pressed active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
     "blue-accent":
-      "border-2 border-accent-blue-border-default text-accent-blue-border-default hover:border-accent-blue-border-strong hover:text-accent-blue-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-accent-blue-border-default text-accent-blue-border-default hover:border-accent-blue-border-strong hover:text-accent-blue-border-strong active:bg-accent-blue-background-subtle-pressed active:border-accent-blue-border-strong active:text-accent-blue-text-strong disabled:border-border-disabled disabled:text-text-disabled",
     "purple-accent":
-      "border-2 border-accent-purple-border-default text-accent-purple-border-default hover:border-accent-purple-border-strong hover:text-accent-purple-border-strong disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-accent-purple-border-default text-accent-purple-border-default hover:border-accent-purple-border-strong hover:text-accent-purple-border-strong active:bg-accent-purple-background-subtle-pressed active:border-accent-purple-border-strong active:text-accent-purple-text-strong disabled:border-border-disabled disabled:text-text-disabled",
   },
 };
 </script>
