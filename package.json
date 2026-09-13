@@ -8,24 +8,23 @@
     "dev": "vite",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@11.25.0",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "11.25.0",
-      "onFail": "download"
-    }
-  },
   "type": "module",
   "devDependencies": {
+    "@storybook/addon-docs": "^10.6.0",
+    "@storybook/vue3-vite": "^10.6.0",
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-vue": "^6.0.8",
     "prettier": "^3.9.6",
+    "storybook": "^10.6.0",
+    "storybook-addon-pseudo-states": "^10.6.0",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
     "vite": "^8.2.2",

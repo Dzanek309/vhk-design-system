@@ -44,3 +44,5 @@ storybook-static/
 .cache/
 .temp/
 .vite/
+
+*storybook.log
