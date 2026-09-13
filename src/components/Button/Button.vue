@@ -51,7 +51,7 @@ withDefaults(
 const sizeClasses: Record<ButtonSize, string> = {
   xl: "h-12 px-sm gap-2xs text-xl",
   lg: "h-10 px-2xs gap-2xs text-lg",
-  md: "h-8 px-2xs gap-3xs text-md",
+  md: "h-8 px-2xs gap-3xs text-sm",
   sm: "h-7 px-2xs gap-3xs text-sm",
   xs: "h-5 px-3xs gap-3xs text-xs",
 };
@@ -79,27 +79,27 @@ const colorClasses: Record<ButtonVariant, Record<ButtonPurpose, string>> = {
   },
   outline: {
     primary:
-      "border-2 border-brand-border-default text-brand-text-on-default hover:border-brand-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-brand-border-default text-brand-text-on-default hover:border-brand-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     secondary:
-      "border-2 border-border-default text-text-primary hover:border-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-border-default text-text-primary hover:border-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     intent:
-      "border-2 border-border-inverse text-text-primary hover:border-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-border-inverse text-border-inverse disabled:border-border-disabled disabled:text-text-disabled",
     "blue-accent":
-      "border-2 border-accent-blue-border-default text-accent-blue-text-on-default hover:border-accent-blue-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-accent-blue-border-default text-accent-blue-text-on-default hover:border-accent-blue-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     "purple-accent":
-      "border-2 border-accent-purple-border-default text-accent-purple-text-on-default hover:border-accent-purple-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-accent-purple-border-default text-accent-purple-text-on-default hover:border-accent-purple-border-strong disabled:border-border-disabled disabled:text-text-disabled",
   },
   alternative: {
     primary:
-      "border-2 border-brand-border-default text-brand-border-default hover:border-brand-border-strong hover:text-brand-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-brand-border-default text-brand-border-default hover:border-brand-border-strong hover:text-brand-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     secondary:
-      "border-2 border-border-default text-border-default hover:border-border-strong hover:text-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-border-default text-border-default hover:border-border-strong hover:text-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     intent:
-      "border-2 border-border-inverse text-border-inverse disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-border-inverse text-border-inverse disabled:border-border-disabled disabled:text-text-disabled",
     "blue-accent":
-      "border-2 border-accent-blue-border-default text-accent-blue-border-default hover:border-accent-blue-border-strong hover:text-accent-blue-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-accent-blue-border-default text-accent-blue-border-default hover:border-accent-blue-border-strong hover:text-accent-blue-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     "purple-accent":
-      "border-2 border-accent-purple-border-default text-accent-purple-border-default hover:border-accent-purple-border-strong hover:text-accent-purple-border-strong disabled:border-border-disabled disabled:text-border-disabled",
+      "border-2 border-accent-purple-border-default text-accent-purple-border-default hover:border-accent-purple-border-strong hover:text-accent-purple-border-strong disabled:border-border-disabled disabled:text-text-disabled",
   },
 };
 </script>
