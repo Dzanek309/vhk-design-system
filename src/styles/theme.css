@@ -183,6 +183,7 @@
   --color-border-default: var(--colors-neutral-600);
   --color-border-strong: var(--colors-neutral-400);
   --color-border-inverse: var(--colors-neutral-0);
+  --color-border-inverse-hover: var(--colors-neutral-200);
   --color-brand-background-subtle: var(--colors-crimson-900);
   --color-brand-background-subtle-hover: var(--colors-crimson-800);
   --color-brand-background-subtle-pressed: var(--colors-crimson-700);

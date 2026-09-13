@@ -83,7 +83,7 @@ const colorClasses: Record<ButtonVariant, Record<ButtonPurpose, string>> = {
     secondary:
       "border-2 border-border-default text-text-primary hover:border-border-strong active:bg-surface-raised-pressed active:border-border-strong disabled:border-border-disabled disabled:text-text-disabled",
     intent:
-      "border-2 border-border-inverse text-border-inverse active:bg-surface-raised-pressed active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-border-inverse text-border-inverse hover:border-border-inverse-hover active:bg-surface-raised-pressed active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
     "blue-accent":
       "border-2 border-accent-blue-border-default text-accent-blue-text-on-default hover:border-accent-blue-border-strong active:bg-accent-blue-background-subtle-pressed active:border-accent-blue-border-strong active:text-accent-blue-text-on-subtle disabled:border-border-disabled disabled:text-text-disabled",
     "purple-accent":
@@ -95,7 +95,7 @@ const colorClasses: Record<ButtonVariant, Record<ButtonPurpose, string>> = {
     secondary:
       "border-2 border-border-default text-border-default hover:border-border-strong hover:text-border-strong active:bg-surface-raised-pressed active:border-border-strong active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
     intent:
-      "border-2 border-border-inverse text-border-inverse active:bg-surface-raised-pressed active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
+      "border-2 border-border-inverse text-border-inverse hover:border-border-inverse-hover hover:text-border-inverse-hover active:bg-surface-raised-pressed active:text-text-primary disabled:border-border-disabled disabled:text-text-disabled",
     "blue-accent":
       "border-2 border-accent-blue-border-default text-accent-blue-border-default hover:border-accent-blue-border-strong hover:text-accent-blue-border-strong active:bg-accent-blue-background-subtle-pressed active:border-accent-blue-border-strong active:text-accent-blue-text-strong disabled:border-border-disabled disabled:text-text-disabled",
     "purple-accent":
