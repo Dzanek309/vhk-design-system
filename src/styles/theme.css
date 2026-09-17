@@ -30,8 +30,10 @@
   --weight-regular: 400;
   --weight-medium: 500;
   --weight-bold: 700;
-  --family-primary: Bebas Neue;
-  --family-secondary: Inter;
+  --family-primary: "Bebas Neue", sans-serif;
+  --family-secondary: "Inter Variable", "Inter", sans-serif;
+  --family-tertiary: "Hahmlet Variable", "Hahmlet", serif;
+  --family-quaternary: "Libre Caslon Display", serif;
   --line-height-100: 1rem;
   --gap-100: 0.25rem;
   --line-height-200: 1.25rem;
@@ -386,6 +388,8 @@
   --tracking-wide: var(--letter-spacing-700);
   --font-heading: var(--family-primary);
   --font-body: var(--family-secondary);
+  --font-reading: var(--family-tertiary);
+  --font-page-title: var(--family-quaternary);
   --color-surface-inverse: var(--colors-neutral-0);
   --color-surface-inverse-hover: var(--colors-neutral-100);
   --color-surface-inverse-pressed: var(--colors-neutral-200);
