@@ -24,6 +24,8 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "dev": "vite",
     "format": "prettier --write .",
     "format:check": "prettier --check .",

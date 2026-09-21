@@ -8,4 +8,5 @@ export default defineConfigWithVueTs([
   pluginVue.configs["flat/recommended"],
   vueTsConfigs.recommended,
   prettier,
+  { rules: { "vue/multi-word-component-names": "off" } },
 ]);
