@@ -4,5 +4,9 @@ const config: StorybookConfig = {
   stories: ["../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: ["storybook-addon-pseudo-states", "@storybook/addon-docs"],
   framework: "@storybook/vue3-vite",
+  viteFinal: (config) => {
+    config.base = "/vhk-design-system/";
+    return config;
+  },
 };
 export default config;
