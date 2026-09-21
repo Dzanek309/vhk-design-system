@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/vue3-vite";
 import Button from "./Button.vue";
 import type { ButtonPurpose, ButtonSize, ButtonVariant } from "./Button.vue";
-import { render } from "vue";
 
 const purposes: ButtonPurpose[] = [
   "intent",
