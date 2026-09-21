@@ -1,7 +1,12 @@
 {
   "name": "@dzanek309/vhk-design-system",
   "version": "0.1.0",
-  "description": "",
+  "description": "Vue 3 component library built for the VHK Figma design system",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzanek309/vhk-design-system.git"
+  },
+  "homepage": "https://dzanek309.github.io/vhk-design-system/",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -34,9 +39,12 @@
     "build-storybook": "storybook build",
     "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vhk",
+    "vhk-design-system"
+  ],
+  "author": "Dzanek309",
+  "license": "MIT",
   "packageManager": "pnpm@11.25.0",
   "type": "module",
   "devDependencies": {
