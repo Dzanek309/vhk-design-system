@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.2.0...vhk-design-system-v0.2.1) (2026-09-23)
+
+
+### Bug Fixes
+
+* update tsconfig.json to include .storybook directory in the include paths ([0ea1a49](https://github.com/Dzanek309/vhk-design-system/commit/0ea1a497d6b5ab2a9fd5a8168c2585e402295364))
+
 ## [0.2.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.1.0...vhk-design-system-v0.2.0) (2026-09-23)
 
 
