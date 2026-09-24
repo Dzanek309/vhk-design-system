@@ -1,0 +1,2 @@
+pnpm run icons:generate
+git add src/components/Icon/icon-names.ts
