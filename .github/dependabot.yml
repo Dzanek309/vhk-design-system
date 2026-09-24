@@ -9,6 +9,7 @@ updates:
     groups:
       npm-deps:
         patterns: ["*"]
+        update-types: ["minor", "patch"]
   - package-ecosystem: "github-actions"
     directories: ["/", "/.github/actions/setup"]
     commit-message:
@@ -18,3 +19,4 @@ updates:
     groups:
       actions:
         patterns: ["*"]
+        update-types: ["minor", "patch"]
