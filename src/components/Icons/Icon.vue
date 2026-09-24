@@ -37,6 +37,6 @@ const icons = import.meta.glob<string>("../../assets/icons/*.svg", {
 });
 
 const svg = computed(() => {
-    return icons[`../../assets/icons/icon-${props.name}.svg`],
+  return icons[`../../assets/icons/icon-${props.name}.svg`];
 });
 </script>
