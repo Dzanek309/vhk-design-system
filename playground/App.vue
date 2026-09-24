@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Button from "../src/components/Button/Button.vue";
-import Icon from "../src/components/Icons/Icon.vue";
+import Icon from "../src/components/Icon/Icon.vue";
 </script>
 <template>
   <div class="bg-gray-500 h-100 w-100">
