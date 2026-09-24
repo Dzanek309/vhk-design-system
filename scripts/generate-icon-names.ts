@@ -10,7 +10,10 @@ const iconNames = files
   });
 
 const fileContent =
-  "export type IconName = " + iconNames.map((name) => `"${name}"`).join(" | ") + ";\n";
+  "export const iconNames = [" +
+  iconNames.map((name) => `"${name}"`).join(", ") +
+  "] as const;\n" +
+  "export type IconName = (typeof iconNames)[number];\n";
 
 writeFileSync("src/components/Icon/icon-names.ts", fileContent, "utf8");
 console.log(fileContent);
