@@ -10,6 +10,6 @@ import Icon from "../src/components/Icons/Icon.vue";
     <Button size="lg">click me</Button>
     <Button size="md">click me</Button>
     <Button size="sm">click me</Button>
-    <Button size="xs">click me</Button>ś
+    <Button size="xs">click me</Button>
   </div>
 </template>
