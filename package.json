@@ -38,7 +38,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "vite build",
-    "icons:generate": "node scripts/generate-icon-names.ts && prettier src/components/Icon/icon-names.ts --write"
+    "icons:generate": "node scripts/generate-icon-names.ts && prettier src/components/Icon/icon-names.ts --write",
+    "prepare": "husky"
   },
   "keywords": [
     "vhk",
@@ -62,6 +63,7 @@
     "eslint": "^10.11.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.11.0",
+    "husky": "^9.1.7",
     "jsdom": "^30.1.0",
     "prettier": "^3.9.8",
     "storybook": "^10.6.0",
