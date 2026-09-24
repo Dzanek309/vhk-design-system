@@ -42,13 +42,13 @@ const sizeClasses: Record<IconSize, string> = {
   xs: "size-2 stroke-[3]",
 };
 
-const icons = import.meta.glob<string>("../../assets/icons/*.svg", {
+const icons = import.meta.glob<string>("../../assets/icon/*.svg", {
   query: "?raw",
   import: "default",
   eager: true,
 });
 
 const svg = computed(() => {
-  return icons[`../../assets/icons/icon-${props.name}.svg`];
+  return icons[`../../assets/icon/icon-${props.name}.svg`];
 });
 </script>
