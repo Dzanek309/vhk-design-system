@@ -1,5 +1,9 @@
 <template>
-  <span v-html="svg"></span>
+  <span
+    :class="sizeClasses[size]"
+    class="inline-flex [&>svg]:size-full"
+    v-html="svg"
+  ></span>
 </template>
 <script lang="ts" setup>
 import { computed } from "vue";
@@ -29,6 +33,14 @@ const props = withDefaults(
     size: "md",
   },
 );
+
+const sizeClasses: Record<IconSize, string> = {
+  xl: "size-6 stroke-[2]",
+  lg: "size-5 stroke-[2.1]",
+  md: "size-4 stroke-[2.25]",
+  sm: "size-3 stroke-[2.5]",
+  xs: "size-2 stroke-[3]",
+};
 
 const icons = import.meta.glob<string>("../../assets/icons/*.svg", {
   query: "?raw",
