@@ -37,7 +37,8 @@
     "typecheck": "vue-tsc --noEmit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "vite build"
+    "build": "vite build",
+    "icons:generate": "node scripts/generate-icon-names.ts && prettier src/components/Icon/icon-names.ts --write"
   },
   "keywords": [
     "vhk",
