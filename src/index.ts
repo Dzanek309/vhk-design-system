@@ -5,3 +5,5 @@ export type {
   ButtonSize,
   ButtonVariant,
 } from "./components/Button/Button.vue";
+export { default as Icon } from "./components/Icon/Icon.vue";
+export type { IconSize, IconName } from "./components/Icon/Icon.vue";
