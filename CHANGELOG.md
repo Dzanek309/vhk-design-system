@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.3.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.2.1...vhk-design-system-v0.3.0) (2026-09-25)
+
+
+### Features
+
+* add Icon component ([7953a31](https://github.com/Dzanek309/vhk-design-system/commit/7953a31eb29cb41ebad1df82d432dca8e3cf3826))
+* add icon name generation script and update Icon component type definitions ([86637e7](https://github.com/Dzanek309/vhk-design-system/commit/86637e7da0ba1b0eb2d266c09a9015adf1fa2237))
+* add icon selection controls for Button component in Storybook ([173bd14](https://github.com/Dzanek309/vhk-design-system/commit/173bd146d64fe8e985d02738f2736ce59d78f81f))
+* add new icons ([fb24de2](https://github.com/Dzanek309/vhk-design-system/commit/fb24de276bce3ace25d6566025cea1b685c44e6b))
+* add pre-commit hook to generate icon names and update package.json for husky ([0bec8f8](https://github.com/Dzanek309/vhk-design-system/commit/0bec8f8f8dd3b65ee105796fccdeac15be57ccd2))
+* add unit tests for Icon component rendering ([7f2de12](https://github.com/Dzanek309/vhk-design-system/commit/7f2de121c6f744d8fd1a87d9a80e531f282df42f))
+* add WithIcons story for Button component with icon support ([3699a4f](https://github.com/Dzanek309/vhk-design-system/commit/3699a4f9039c79ee07f904c3ead0d2994d6b018d))
+* enhance accessibility attributes for Icon component ([bfe1dfa](https://github.com/Dzanek309/vhk-design-system/commit/bfe1dfa514a301ebfdb4d3e4d9ef3673bfc98cf8))
+* enhance Icon component with size classes and update SVG imports ([ed73341](https://github.com/Dzanek309/vhk-design-system/commit/ed733410491895ce808038149d1ef811b656cfab))
+* export Icon component and its types from index.ts ([d479e31](https://github.com/Dzanek309/vhk-design-system/commit/d479e311aeedd43246b2ab4301b2b6de537d0ba5))
+* refactor icon name generation and create Icon component stories ([f13bafa](https://github.com/Dzanek309/vhk-design-system/commit/f13bafac34b4794b88d7904ab0129f1a89fc0692))
+* update Button component to use Icon component for left and right icons ([c293928](https://github.com/Dzanek309/vhk-design-system/commit/c2939284f833368ca321bea2ec7a8ccf9f52786d))
+
+
+### Bug Fixes
+
+* correct icon import paths in Icon component ([c450fcf](https://github.com/Dzanek309/vhk-design-system/commit/c450fcf3894a201431744ce798dacf201d0deb00))
+* correct import path for Icon component in App.vue ([54432c3](https://github.com/Dzanek309/vhk-design-system/commit/54432c31efa14a912657044e3d4535805800bcaa))
+* correct syntax in computed property for icon SVG retrieval ([8b16f64](https://github.com/Dzanek309/vhk-design-system/commit/8b16f6493d6ecf7a5f73c9414e9fb01d2da6d5f2))
+* remove stray character from Button component size xs ([b60b96f](https://github.com/Dzanek309/vhk-design-system/commit/b60b96ffe49f114d39b22102cc4ec61802406151))
+* update import path for iconNames in Button stories ([ae3c32f](https://github.com/Dzanek309/vhk-design-system/commit/ae3c32f45c6900c654945c092cdc2252af1ec3d9))
+
 ## [0.2.1](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.2.0...vhk-design-system-v0.2.1) (2026-09-23)
 
 
