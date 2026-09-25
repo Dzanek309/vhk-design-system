@@ -1,5 +1,8 @@
 <template>
   <span
+    :aria-hidden="label ? undefined : 'true'"
+    :role="label ? 'img' : undefined"
+    :aria-label="label ? label : undefined"
     :class="sizeClasses[size]"
     class="inline-flex [&>svg]:size-full"
     v-html="svg"
@@ -14,9 +17,11 @@ const props = withDefaults(
   defineProps<{
     size?: IconSize;
     name: IconName;
+    label?: string;
   }>(),
   {
     size: "md",
+    label: undefined,
   },
 );
 
