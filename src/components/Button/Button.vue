@@ -2,7 +2,7 @@
   <button
     type="button"
     :disabled="disabled"
-    class="rounded-sm inline-flex items-center justify-center font-body cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring-default disabled:pointer-events-none"
+    class="rounded-sm inline-flex whitespace-nowrap items-center justify-center font-body cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring-default disabled:pointer-events-none"
     :class="[sizeClasses[size], colorClasses[variant][purpose]]"
   >
     <Icon

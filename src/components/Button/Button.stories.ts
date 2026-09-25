@@ -114,6 +114,24 @@ const statesGrid: StoryObj<typeof meta> = {
   }),
 };
 
+export const WithIcons: StoryObj<typeof meta> = {
+  args: {
+    purpose: "secondary",
+    variant: "solid",
+    iconLeft: "circle",
+    iconRight: "circle",
+  },
+  render: (args) => ({
+    components: { Button },
+    setup: () => ({ args, sizes }),
+    template: `
+    <div v-for="size in sizes" :key="size" class="flex items-center gap-4 mb-4">
+      <Button v-bind="args" :size="size">Button with Icons</Button>
+    </div>
+    `,
+  }),
+};
+
 export const StatesSolid: StoryObj<typeof meta> = {
   ...statesGrid,
   args: { size: "lg", variant: "solid" },
