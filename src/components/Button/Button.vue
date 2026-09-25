@@ -5,29 +5,26 @@
     class="rounded-sm inline-flex items-center justify-center font-body cursor-pointer transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring-default disabled:pointer-events-none"
     :class="[sizeClasses[size], colorClasses[variant][purpose]]"
   >
-    <span
-      v-if="$slots.left"
-      :class="[
-        'shrink-0 inline-flex items-center justify-center [&>svg]:size-full',
-        iconClasses[size],
-      ]"
-    >
-      <slot name="left" />
-    </span>
+    <Icon
+      v-if="iconLeft"
+      :name="iconLeft"
+      :size="iconSizes[size]"
+      class="shrink-0"
+    ></Icon>
     <slot></slot>
-    <span
-      v-if="$slots.right"
-      :class="[
-        'shrink-0 inline-flex items-center justify-center [&>svg]:size-full',
-        iconClasses[size],
-      ]"
-    >
-      <slot name="right" />
-    </span>
+    <Icon
+      v-if="iconRight"
+      :name="iconRight"
+      :size="iconSizes[size]"
+      class="shrink-0"
+    ></Icon>
   </button>
 </template>
 
 <script setup lang="ts">
+import Icon from "../Icon/Icon.vue";
+import type { IconName } from "../Icon/icon-names";
+import type { IconSize } from "../Icon/Icon.vue";
 export type ButtonSize = "xl" | "lg" | "md" | "sm" | "xs";
 export type ButtonPurpose =
   "intent" | "primary" | "secondary" | "purple-accent" | "blue-accent";
@@ -39,12 +36,16 @@ withDefaults(
     purpose?: ButtonPurpose;
     variant?: ButtonVariant;
     disabled?: boolean;
+    iconLeft?: IconName;
+    iconRight?: IconName;
   }>(),
   {
     size: "md",
     purpose: "primary",
     variant: "solid",
     disabled: false,
+    iconLeft: undefined,
+    iconRight: undefined,
   },
 );
 
@@ -56,12 +57,12 @@ const sizeClasses: Record<ButtonSize, string> = {
   xs: "h-5 px-3xs gap-3xs text-xs",
 };
 
-const iconClasses: Record<ButtonSize, string> = {
-  xl: "size-6",
-  lg: "size-4",
-  md: "size-4",
-  sm: "size-3",
-  xs: "size-2",
+const iconSizes: Record<ButtonSize, IconSize> = {
+  xl: "xl",
+  lg: "md",
+  md: "md",
+  sm: "sm",
+  xs: "xs",
 };
 
 const colorClasses: Record<ButtonVariant, Record<ButtonPurpose, string>> = {
