@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/vue3-vite";
 import Button from "./Button.vue";
 import type { ButtonPurpose, ButtonSize, ButtonVariant } from "./Button.vue";
+import { iconNames } from "../Icon/icon-names.js";
 
 const purposes: ButtonPurpose[] = [
   "intent",
@@ -32,6 +33,14 @@ const meta = {
     variant: {
       control: "select",
       options: variants,
+    },
+    iconLeft: {
+      control: "select",
+      options: iconNames,
+    },
+    iconRight: {
+      control: "select",
+      options: iconNames,
     },
   },
 } satisfies Meta<typeof Button>;
