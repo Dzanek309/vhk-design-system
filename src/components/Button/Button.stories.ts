@@ -140,6 +140,9 @@ export const StatesSolid: StoryObj<typeof meta> = {
 export const StatesOutline: StoryObj<typeof meta> = {
   ...statesGrid,
   args: { size: "lg", variant: "outline" },
+  decorators: [
+    () => ({ template: `<div class="bg-surface-canvas p-4 w-max"><story /></div>` }),
+  ],
 };
 
 export const StatesAlternative: StoryObj<typeof meta> = {
