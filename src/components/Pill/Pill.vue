@@ -1,5 +1,8 @@
 <template>
-  <span :class="[sizeClasses[size], shapeClasses[shape], colorClasses[variant][purpose]]">
+  <span
+    :class="[sizeClasses[size], shapeClasses[shape], colorClasses[variant][purpose]]"
+    class="inline-flex items-center whitespace-nowrap gap-3xs font-medium font-body"
+  >
     <Icon
       v-if="iconLeft"
       :name="iconLeft"
@@ -45,9 +48,9 @@ withDefaults(
 );
 
 const sizeClasses: Record<PillSize, string> = {
-  lg: "h-[1.75rem] py-[0.375rem] px-[0.75rem]",
-  md: "h-[1.5rem] py-[0.25rem] px-[0.625rem]",
-  sm: "h-[1.125rem] py-[0.125rem] px-[0.5rem]",
+  lg: "h-7 py-3xs px-xs text-sm",
+  md: "h-6 py-3xs px-2xs text-xs",
+  sm: "h-4.5 px-2xs text-xs",
 };
 
 const iconSizes: Record<PillSize, IconSize> = {
