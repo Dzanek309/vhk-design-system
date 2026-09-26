@@ -1,7 +1,7 @@
 <template>
   <span
     :class="[sizeClasses[size], shapeClasses[shape], colorClasses[variant][purpose]]"
-    class="inline-flex items-center whitespace-nowrap gap-3xs font-medium font-body"
+    class="inline-flex items-center whitespace-nowrap gap-3xs font-medium font-body justify-center"
   >
     <Icon
       v-if="iconLeft"
@@ -61,7 +61,7 @@ const iconSizes: Record<PillSize, IconSize> = {
 
 const shapeClasses: Record<PillShape, string> = {
   circle: "rounded-full",
-  square: "rounded",
+  square: "rounded-sm",
 };
 
 const colorClasses: Record<PillVariant, Record<PillPurpose, string>> = {
@@ -74,13 +74,13 @@ const colorClasses: Record<PillVariant, Record<PillPurpose, string>> = {
       "bg-accent-purple-background-default text-accent-purple-text-on-default",
   },
   alternative: {
-    primary: "border-1 border-brand-border-default text-brand-border-default",
-    secondary: "border-1 border-border-default text-border-default",
-    intent: "border-1 border-border-inverse text-border-inverse",
+    primary: "inset-ring inset-ring-brand-border-default text-brand-border-default",
+    secondary: "inset-ring inset-ring-border-default text-border-default",
+    intent: "inset-ring inset-ring-border-inverse text-border-inverse",
     "blue-accent":
-      "border-1 border-accent-blue-border-default text-accent-blue-border-default",
+      "inset-ring inset-ring-accent-blue-border-default text-accent-blue-border-default",
     "purple-accent":
-      "border-1 border-accent-purple-border-default text-accent-purple-border-default",
+      "inset-ring inset-ring-accent-purple-border-default text-accent-purple-border-default",
   },
 };
 </script>
