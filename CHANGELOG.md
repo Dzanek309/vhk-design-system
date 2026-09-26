@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.3.0...vhk-design-system-v0.4.0) (2026-09-26)
+
+
+### Features
+
+* add Pill component with icon support ([8a8d307](https://github.com/Dzanek309/vhk-design-system/commit/8a8d3076b4fff16bd1749b328d663f97da29c0e0))
+
 ## [0.3.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.2.1...vhk-design-system-v0.3.0) (2026-09-25)
 
 
