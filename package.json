@@ -7,6 +7,9 @@
     "url": "git+https://github.com/Dzanek309/vhk-design-system.git"
   },
   "homepage": "https://dzanek309.github.io/vhk-design-system/",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
