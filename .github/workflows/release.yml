@@ -26,6 +26,7 @@ jobs:
           manifest-file: .release-please-manifest.json
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
+      sha: ${{ steps.release.outputs.sha }}
   publish:
     needs: release-please
     runs-on: ubuntu-latest
@@ -35,8 +36,8 @@ jobs:
     if: ${{ needs.release-please.outputs.release_created == 'true' }}
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup
         with:
-          registry-url: https://registry.npmjs.org
+          ref: ${{ needs.release-please.outputs.sha }}
+      - uses: ./.github/actions/setup
       - run: pnpm build
       - run: npm publish
