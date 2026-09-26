@@ -15,3 +15,9 @@ export type {
   PillPurpose,
   PillVariant,
 } from "./components/Pill/Pill.vue";
+export { default as IconButton } from "./components/IconButton/IconButton.vue";
+export type {
+  IconButtonSize,
+  IconButtonPurpose,
+  IconButtonVariant,
+} from "./components/IconButton/IconButton.vue";
