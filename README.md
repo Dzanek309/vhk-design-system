@@ -13,20 +13,14 @@ Storybook with live controls and interaction states. The published Storybook is 
 primary deliverable. It is where components are explored and compared against the
 design. The npm package exists so the library can actually be consumed.
 
-Currently ships:
-
-- `Button` -> five sizes, five purposes, solid / outline / alternative variants, optional icons
-- `Icon` -> SVG icon set with typed names (`IconName`) and an accessible `label`
-- `Pill` —> compact label in three sizes, circle or square shape, optional icons
-
 ## Stack
 
 - **Vue 3** + **TypeScript**
-- **Tailwind CSS 4** -> design tokens as CSS variables, utilities in components
-- **Vite** -> library build and a dev playground
-- **Storybook 10** -> autodocs and pseudo-states
+- **Tailwind CSS 4**
+- **Vite**
+- **Storybook 10**
 - **Vitest** + **Vue Test Utils**
-- **ESLint** + **Prettier** -> enforced in CI alongside type checks, tests and the build
+- **ESLint** + **Prettier**
 
 ## Running locally
 
