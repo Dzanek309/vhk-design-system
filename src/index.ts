@@ -21,3 +21,8 @@ export type {
   IconButtonPurpose,
   IconButtonVariant,
 } from "./components/IconButton/IconButton.vue";
+export { default as RadioButton } from "./components/RadioButton/RadioButton.vue";
+export type {
+  RadioButtonSize,
+  RadioButtonPurpose,
+} from "./components/RadioButton/RadioButton.vue";
