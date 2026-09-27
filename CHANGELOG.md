@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.4.0...vhk-design-system-v0.5.0) (2026-09-27)
+
+
+### Features
+
+* **IconButton:** add IconButton component with props and styles ([2b4509b](https://github.com/Dzanek309/vhk-design-system/commit/2b4509b695ce790411574cf25e386d5839166ac7))
+
 ## [0.4.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.3.0...vhk-design-system-v0.4.0) (2026-09-26)
 
 
