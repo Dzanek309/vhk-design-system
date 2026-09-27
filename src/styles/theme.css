@@ -376,6 +376,7 @@
   --text-heading-xl: var(--font-size-1500);
   --text-heading-2xl: var(--font-size-1700);
   --text-heading-hero: var(--font-size-1800);
+  --leading-2xs: var(--line-height-100);
   --leading-xs: var(--line-height-200);
   --leading-sm: var(--line-height-300);
   --leading-md: var(--line-height-400);
