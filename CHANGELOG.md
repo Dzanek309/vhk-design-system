@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.6.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.5.0...vhk-design-system-v0.6.0) (2026-11-02)
+
+
+### Features
+
+* **RadioButton:** add Purposes and States stories to Storybook ([5edefc2](https://github.com/Dzanek309/vhk-design-system/commit/5edefc2e940f34a76dbef6fdc84489a5b72c9725))
+* **RadioButton:** add RadioButton component and its types ([5132b66](https://github.com/Dzanek309/vhk-design-system/commit/5132b6628547972f8578854ae2afdece90ea0018))
+* **theme:** add new line-height variable for 2xs leading ([156670e](https://github.com/Dzanek309/vhk-design-system/commit/156670ebf09325bb0b4d5a31070fa81cf68e6d56))
+
 ## [0.5.0](https://github.com/Dzanek309/vhk-design-system/compare/vhk-design-system-v0.4.0...vhk-design-system-v0.5.0) (2026-09-27)
 
 
